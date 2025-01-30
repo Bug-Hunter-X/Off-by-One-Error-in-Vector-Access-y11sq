@@ -1,0 +1,2 @@
+# Off-by-One Error in C++ Vector Access
+This repository demonstrates a common off-by-one error in C++ when accessing elements of a `std::vector`. The error occurs because the loop condition `i <= myVector.size()` attempts to access an element beyond the valid range of indices (0 to size()-1). The corrected version demonstrates the proper way to iterate through vectors.
